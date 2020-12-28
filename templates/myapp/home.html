@@ -1,0 +1,119 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>PRADEEP </title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/me.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Pradeep </h4>
+					<p>I am a Python fullstack developer</p>
+
+					<p>Location : Banglore,India</p>
+					
+                    <ul class="social-links">
+						<li> <a href="https://www.facebook.com/Pradeephuded37">
+							<img class="social" src="{% static 'images/facebook.png' %}">
+						</a> </li>
+			
+						<li> <a href="https://www.linkedin.com/in/pradeep-huded-a023869b/">
+							<img class="social" src="{% static 'images/linkedin.png' %}">
+						</a> </li>
+
+						<li> <a href="https://github.com/pradeephuded37">
+							<img class="social" src="{% static 'images/git.png' %}">
+						</a> </li>
+
+						<li> <a href="https://www.instagram.com/pradeep.h.07/">
+							<img class="social" src="{% static 'images/instagram.jpeg' %}">
+						</a> </li>
+
+						<li> <a href="https://www.gmail.com/">
+							<img class="social" src="{% static 'images/gmail.jpeg' %}">
+						</a> </li>			
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h5>MY SKILLS</h5>
+					<h3>Backend Technologies</h3>
+					<p>Python <br>Django Framework <br> REST APIS </p>  
+					
+					<h3>Database</h3>	
+					<p>SQL(MYSQL,SQLITE3,Postgres,Oracle)</p> 
+					
+					<h3>Frontend Technologies</h3>
+					<p>HTML <br> CSS <br> JavaScript<br>Bootstrap</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>MY QUALIFICATIONS</h5>
+					<hr>
+					<p>
+						Bachelor of Engineering in Automation and Robotics .
+					</p>
+					<p>
+						Certified proffessionally in Python Django fullstack Web developement.
+					</p>
+
+			    </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>MY PROJECTS </h5>
+					<hr>
+					<ul>
+						<li> click here to see my projects  <a href="https://github.com/pradeephuded37">
+							<img class="social" src="{% static 'images/git.png' %}">
+						</a> </li>
+
+					</ul>
+		  		</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>CIRTIFICATIONS</h5>
+					<hr>
+					<ul>
+						<li> 
+							<img src="{% static 'images/PYSPIDERSCIRTIFICATE.jpg' %}" width="200" height="300">
+
+
+							<img src="{% static 'images/udemy.jpg' %}" width="200" height="300">
+						 </li>
+
+						
+
+					</ul>
+		  		</div>
+			</div>
+
+
+
+		</div>
+	
+	</div>
+
+
+</body>
+</html>
